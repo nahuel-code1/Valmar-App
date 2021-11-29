@@ -20,7 +20,7 @@ export default function IndexRoutes () {
 
             <Route path="inmuebles" element={<IndexEstates />} />
 
-            <Route path="home" element={<IndexHome />}>
+            <Route path="/" element={<IndexHome />}>
 
                 <Route path="inmueble_destacado_1" element={<FeaturedProperty1 />} />
 

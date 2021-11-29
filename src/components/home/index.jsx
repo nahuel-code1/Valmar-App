@@ -33,6 +33,17 @@ export default function IndexHome () {
 
             </div>
 
+            <div className="all_property">
+
+                <img src="https://www1.upme.gov.co/simco/PublishingImages/Pagina_en_construccion.jpg" alt="" />
+
+                {/* <div>
+                        <h2>
+                        Propiedades
+                    </h2>
+                </div> */}
+            </div>
+
         </div>
     )
 }

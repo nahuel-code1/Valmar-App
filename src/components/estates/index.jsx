@@ -3,9 +3,7 @@ import React from 'react'
 export default function IndexEstates () {
     return (
         <div>
-            <h2>
-                Estates
-            </h2>
+                <img src="https://www1.upme.gov.co/simco/PublishingImages/Pagina_en_construccion.jpg" alt="" />
         </div>
     )
 }

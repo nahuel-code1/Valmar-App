@@ -8,7 +8,7 @@ export default function NavBar () {
 
             <div className="logo_navbar">
                 <div>
-                   <Link to="home">
+                   <Link to="/">
                         <img src="https://vallmar.com.py/wp-content/uploads/2021/09/VALLMAR-Logo-240-72-3.png" alt="Vallmar Logo" />
                    </Link> 
                 </div>
@@ -16,7 +16,7 @@ export default function NavBar () {
 
             <div className="link_navbar"> 
 
-                <Link to="home">
+                <Link to="/">
                     Home
                 </Link>
 
