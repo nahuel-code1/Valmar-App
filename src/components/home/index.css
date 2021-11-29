@@ -1,0 +1,164 @@
+/*   -----------------  index.jsx  -------------   */
+/*   -----------------      ||     -------------   */
+/*   -----------------      ||     -------------   */
+/*   -----------------      vv     -------------   */
+p {
+    font-size: 0.8rem;
+}
+.home_container {
+    width: 100%;
+    height: 42.5%;
+    background-color: aqua;
+}
+
+.featured_property-container {
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+}
+
+.property_links-container {
+    width: 100%;
+    height: 10%;
+    /* background-color: #1A6079; color de fondo azul especial */
+    background-color: #F7F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.property_links-container div {
+    width: 15%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+}
+
+/*   -----------------  featuredProperty1.jsx  -------------   */
+/*   -----------------          ||             -------------   */
+/*   -----------------          ||             -------------   */
+/*   -----------------          vv             -------------   */
+
+.featured_property_1-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i0.wp.com/vallmar.com.py/wp-content/uploads/2020/07/IMG_4623-1-scaled.jpg?fit=2560%2C1707&ssl=1");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featured_property_1-container2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.featured_property_1-box {
+    width: 75%;
+    height: 35%;
+    border-radius: 6px; 
+    background-color: #fff;
+}
+
+/* ---------------------------------------- */
+/*              Content Section             */
+.featured_property_1-content-box {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.featured_property_1-content-box2 {
+    width: 90%;
+    height: 90%;
+   
+}
+
+.featured_property_1-content-box2-title {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured_property_1-content-box2-info {
+    width: 100%;
+    height: 80%;
+}
+
+.featured_property_1-content-box2-info p {
+    padding-top: 8px;
+    color: #6D6F81;
+}
+
+.featured_property_1-content-box2-info div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured_property_1-content-box2-info div div p {
+    color: black;
+    padding: 3px 0 0 4px;
+    font-size: 1.1em;
+}
+
+
+/* ---------------------------------------- */
+/*              Link "Detalles" Section     */
+.featured_property_1-mini_box-box {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.featured_property_1-mini_box-box div {
+    width: 20%;
+    height: 100%;
+    background-color: #1A6079;
+    border-top-left-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.featured_property_1-mini_box-box div div {
+    width: 20%;
+    height: 100%;
+}
+
+.featured_property_1-mini_box-box div div a {
+    font-size: 1.1em;
+    text-decoration: solid;
+    color: #fff;
+}
+/* ---------------------------------------- */
+
+.featured_property_2-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i0.wp.com/vallmar.com.py/wp-content/uploads/2020/09/habitalis-sajonia-1-scaled.jpg?fit=2560%2C1440&ssl=1");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.featured_property_3-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i0.wp.com/vallmar.com.py/wp-content/uploads/2021/01/En-Alquiler-Deposito-de-4.200m2-con-oficinas-IMPECABLE-Zona-Zabalas-Cue-a-metros-del-Edificio-TIGO-y-Acceso-Sur-Carlos-Maidana-Asesor-inmobiliario-Vallmar-inmobiliaria-Paraguay-2.jpeg?fit=1280%2C960&ssl=1");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
